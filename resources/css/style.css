@@ -6,6 +6,7 @@ html {
   opacity: 0.9;
 }
 
+/* header section */
 
 header {
   display: flex;
@@ -36,4 +37,30 @@ nav span {
 a {
   text-decoration: underline;
   color: seashell;
+}
+
+/*The first div section */
+
+#Mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  display: flex;
+  height:700px;
+  width:1200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#Mission div {
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+h2, h4 {
+  margin: 0;
+  padding: 10px;
 }
